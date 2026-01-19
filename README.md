@@ -1,12 +1,12 @@
 # TODO
-add:
--JellyFIn
+Add:
+- [JellyFIn](https://github.com/jellyfin/jellyfin): mediaserver, allows playback and manages library
 
 Change:
--Overseerr -> Seerr/Jellyseerr
+- Overseerr -> [Seerr/Jellyseerr](https://github.com/seerr-team/seerr)
 
 Remove:
--Readarr
+- Readarr
 
 # -arr-compose
 Stack containing majority of most used -arr apps with a VPN transmission client and Traefik for off-site use
@@ -19,9 +19,8 @@ this docker-compose stack is using the following services:
 - [Transmission-openvpn](https://github.com/haugene/docker-transmission-openvpn): a Torrent Downloader with an included openvpn client with a VPN kill-switch
 - [Overseerr](https://github.com/sct/overseerr): for series and movie user requests
 - [Heimdall](https://github.com/linuxserver/Heimdall): a hub interface for all services
-- [Sonarr](https://github.com/Sonarr/Sonarr): a Series / Anime scrapper, downloader and organizer
+- [Sonarr](https://github.com/Sonarr/Sonarr): a series scrapper, downloader and organizer
 - [Bazarr](https://github.com/morpheus65535/bazarr): a subtitle scrapper and downloader. Linked with Sonarr and Radarr
-- [readarr](https://github.com/Readarr/Readarr): a book-related equivalent of Sonarr
 - [Lidarr](https://github.com/Lidarr/Lidarr): a song-related equivalent of Sonarr
 - [Radarr](https://github.com/Radarr/Radarr): a movie scrapper, downloader and organizer
 - [Prowlarr](https://github.com/Prowlarr/Prowlarr): Torrent tracker manager for -arr apps
